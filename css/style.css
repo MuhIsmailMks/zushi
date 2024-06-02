@@ -3007,7 +3007,11 @@ nav .book{
   
 
   /* new section */
-
+  .logo_nav{
+    height: auto; 
+    object-fit: contain;
+    width: 20vw;
+  }
   /* cex */
   .cex{
     height: 700px;
