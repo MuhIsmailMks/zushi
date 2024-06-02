@@ -43,3 +43,10 @@ SECRET PHASE
 • ???
 • ???
 • ???
+
+  <div class="absolute left-0 top-0  lg:-top-16 lg:-left-2">
+          <img src="./asset/awan.png" alt="awan" class="w-1/2 h-1/2 lg:w-full lg:h-full animate-movex">
+        </div>
+
+
+              <!-- <img src="./asset/bintang.png" alt="gambar bintang" width="24px" height="24px" class="image absolute -top-2 left-2  transition-transform duration-200 ease-in-out">  --> <a href="https://zushi.gitbook.io/whitepaper"
