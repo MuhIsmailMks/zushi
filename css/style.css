@@ -3006,7 +3006,10 @@ nav .book{
   }
   
 
-  /* new section */
+  /* new section */ 
+  header{
+    height: 70px;
+  }
   .logo_nav{
     height: auto; 
     object-fit: contain;
