@@ -12,6 +12,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Chivo:wght@200;300;400&family=Delius+Unicase:wght@700&display=swap"
     rel="stylesheet" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   <title>Zushi</title>
 </head>
 
@@ -392,18 +396,60 @@
               <h1 class="stroke-melengkung font-delius text-[34px] font-extrabold lg:text-7xl block lg:hidden">$ZUSHI<span
                   class="stroke-road">TOKEN</span></h1>
               <img src="./asset/text-zushi-token.png" alt="zushi-token" class="hidden lg:block">
-              <section class="contractCopy relative text-center pt-10 lg:pt-0 flex justify-center ">
-                <input type="text"
-                  value="0xC202910dF76BAbacEAb7262d7898d74890a5F457" style="position: fixed; left: -9999px;"
-                  fdprocessedid="uwdv2f">
-                <p id="clipboard2"
-                  class="flex items-center pl-6 text-center font-semibold font-chivo v-medium hover:underline text-xs lg:text-2xl">
-                  <span class="reduced">0x5554C81A9B90414918d303eC98f55558d3d14e69</span><span class="p-1 pt-2 lg:pl-2">
-                    <img src="./asset/note-black.png" alt="Copy" width="24px" height="24px"
-                      class="w-1/2 h-1/2 lg:w-full lg:h-full">
-                  </span>
-                </p>
-              </section>
+
+
+              
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper font-semibold font-chivo">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <section class="contractCopy copy_address relative text-center pt-10 lg:pt-0 flex justify-center ">
+        <h4 class="copied_address">COPIED</h4>
+        <input type="text"
+          value="0xC202910dF76BAbacEAb7262d7898d74890a5F457" style="position: fixed; left: -9999px;"
+          fdprocessedid="uwdv2f">
+        <p id="clipboard2"
+          class="flex items-center pl-6 text-center font-semibold font-chivo v-medium hover:underline text-xs ">
+          <span class="reduced">0x5554C81A9B90414918d303eC98f55558d3d14e69</span><span class="p-1 pt-2 lg:pl-2">
+            <img src="./asset/note-black.png" alt="Copy" width="24px" height="24px"
+              class="w-1/2 h-1/2 lg:w-full lg:h-full">
+          </span>
+        </p>
+      </section>
+    </div>
+    <div class="swiper-slide">
+      <p>200,000,000 Pinksale & LP 20%</p>
+    </div>
+    <div class="swiper-slide">
+      <p>300,000,000 Venture Capital 30%</p>
+    </div>
+    <div class="swiper-slide">
+      <p>100,000,000 CEX 10%</p>
+    </div> 
+    <div class="swiper-slide">
+     <p>200,000,000 Staking Pool 20%</p>
+    </div> 
+    <div class="swiper-slide">
+    <p>120,000,000 GameFi 12%</p>
+    </div> 
+    <div class="swiper-slide">
+    <p>30,000,000 Team 3%</p>
+    </div> 
+    <div class="swiper-slide">
+    <p>50,000,000 Marketing 5%</p>
+    </div> 
+  </div> 
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+ 
+</div>
+
+
               <p class="font-chivo intro_text pb-40 token_text lg:pb-96 lg:pt-20">Zushi introduces its native token,
                 $ZUSHI,
                  which serves as the backbone of the  ecosystem. As a $ZUSHI holder, you gain  access to a
@@ -758,11 +804,12 @@
 
   <!-- type animation -->
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- script -->
-  <script src="./js/main.js"></script>
-  <!-- <script src="./js/script.js"></script> -->
+  <script src="./js/main.js"></script> 
   <script>
-    // copy btn footer
+    // copy btn footer 
     document.querySelector('.footer_address').addEventListener('click',() =>{ 
         var input = document.createElement("input");
         input.style.position = "fixed";
@@ -773,6 +820,15 @@
         document.execCommand("copy"); 
         document.body.removeChild(input); 
      
+        let copied_address = document.querySelector(".copied_address");  
+        copied_address.classList.add('active')
+        setTimeout(function () {
+         copied_address.classList.remove('active')
+        }, 800);
+     })
+
+     
+    document.querySelector('.copy_address').addEventListener('click',() =>{  
         let copied_address = document.querySelector(".copied_address");  
         copied_address.classList.add('active')
         setTimeout(function () {
@@ -792,6 +848,21 @@
               loop: true
           });
       });
+
+      // swiper js
+      const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+ 
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+ 
+});
 
      </script> 
 

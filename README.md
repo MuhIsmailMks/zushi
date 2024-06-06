@@ -7,7 +7,9 @@ animate-movex
 
    <li class="lg:text-2xl">aaaa</li>
 
-   
+    <button class="w-10 h-10 lg:w-14 lg:h-14  bg-01D3EC border-4 border-0498AA rounded-full">
+                 
+                  </button>
 GETTING READY
  Community  Establishment
 • Website Release
@@ -50,3 +52,15 @@ SECRET PHASE
 
 
               <!-- <img src="./asset/bintang.png" alt="gambar bintang" width="24px" height="24px" class="image absolute -top-2 left-2  transition-transform duration-200 ease-in-out">  --> <a href="https://zushi.gitbook.io/whitepaper"
+
+.swiper-slide p
+.swiper .copy_address p
+
+
+    200,000,000 Pinksale & LP 20%
+300,000,000 Venture Capital 30%
+100,000,000 CEX 10%
+200,000,000 Staking Pool 20%
+120,000,000 GameFi 12%
+30,000,000 Team 3%
+50,000,000 Marketing 5%
