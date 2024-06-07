@@ -2451,7 +2451,8 @@ nav .book{
  .swiper {
   width: 960px; 
   position: relative;
-  height: 80px;  
+  height: 100%;  
+
  
   margin: 2rem 0 0;
 
@@ -2462,10 +2463,21 @@ nav .book{
 
 .contractCopy{
   cursor: pointer;
+  margin-top: 2rem;
 }
 
 .swiper-wrapper{
   position: relative;
+}
+
+.slide1_text{
+  margin-top: 3rem;
+  opacity: .7;
+  width: 80%;
+}
+
+.slide2_text{
+  font-size: 2rem;
 }
 
 .swiper .copy_address p{
@@ -2480,6 +2492,7 @@ nav .book{
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+  flex-direction: column;
 }
 
 .swiper-slide h2{ 
@@ -2503,6 +2516,7 @@ nav .book{
   .swiper-button-prev{
     width:100px;
     height: 100% !important;  
+    top: 50px !important;
   }
 
   .swiper-button-next::before, 
@@ -3185,8 +3199,17 @@ nav .book{
 
      /* slide token */
       .swiper {
-        width: 85vw;  
-        height: 60px; 
+        width: 85vw;   
+        height: 40%;
+        margin-top: 0;
+      }
+
+      .slide2{
+        padding-top: 1rem;
+      }
+
+      .slide1_text{
+        margin-top: 0rem; 
       }
 
       .swiper .copy_address p{
