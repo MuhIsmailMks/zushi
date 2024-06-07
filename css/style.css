@@ -2478,6 +2478,7 @@ nav .book{
 
 .slide2_text{
   font-size: 2rem;
+  opacity: .7;
 }
 
 .swiper .copy_address p{
@@ -2499,6 +2500,10 @@ nav .book{
   color: #01D3EC;
   font-size: 64px;
   -webkit-text-stroke: 2px black;
+}
+
+.contract_text{
+  font-size: 64px;
 }
 
 .swiper-button-next:after, 
@@ -2977,6 +2982,10 @@ nav .book{
     gap: 2rem;
   }
 
+  
+  .contract_text{
+    font-size: 2.2rem;
+  }
   .bintang_getsuzhi{
     height: auto;
     object-fit: contain;
@@ -3202,6 +3211,10 @@ nav .book{
         width: 85vw;   
         height: 40%;
         margin-top: 0;
+      }
+
+      .contract_text{
+        font-size: 1.2rem;
       }
 
       .slide2{
