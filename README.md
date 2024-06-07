@@ -55,7 +55,7 @@ SECRET PHASE
 
 .swiper-slide p
 .swiper .copy_address p
-
+0xE9C....d392b3
 
     200,000,000 Pinksale & LP 20%
 300,000,000 Venture Capital 30%
