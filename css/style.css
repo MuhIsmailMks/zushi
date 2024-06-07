@@ -3077,6 +3077,33 @@ nav .book{
     width: 140px;
   }
 
+  
+  .whitepape_btn{
+    bottom: 70px;
+  }
+  /* swiper */
+  .swiper{
+    width: 70vw;
+  }
+  .swiper-button-next::before, 
+  .swiper-button-prev::before{ 
+    width: 44px ;
+    height: 44px; 
+  }
+
+  .swiper-button-next{
+    right: 1.5rem !important;
+  }
+
+  .swiper .copy_address p{
+    font-size: 2vw;
+  }
+
+  
+  .swiper-slide h2{  
+    font-size: 34px;
+    -webkit-text-stroke: 1px black;
+  }
 }
 
 @media screen and (max-width:524px) {
@@ -3160,10 +3187,6 @@ nav .book{
       .swiper {
         width: 85vw;  
         height: 60px; 
-      }
-
-      .swiper-slide p{
-        font-size: 1rem;
       }
 
       .swiper .copy_address p{
