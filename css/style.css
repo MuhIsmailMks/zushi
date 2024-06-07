@@ -3233,6 +3233,7 @@ nav .book{
       .swiper-button-prev,
       .swiper-button-next{
         top: 45px !important;
+        height: 50px !important;
       }
 
       .swiper-button-next::before, 
