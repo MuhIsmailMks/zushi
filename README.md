@@ -64,3 +64,5 @@ SECRET PHASE
 120,000,000 GameFi 12%
 30,000,000 Team 3%
 50,000,000 Marketing 5%
+
+Zushi: Not Just a MemeCoin, It’s a Revolution!

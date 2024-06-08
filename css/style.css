@@ -2564,6 +2564,10 @@ nav .book{
     top: 50px !important;
   }
 
+  #tokenomics .swiper-button-next{
+    right: 0 !important;
+  }
+
  .swiper-button-next::before, 
  .swiper-button-prev::before{
     content: "";
@@ -3344,13 +3348,13 @@ nav .book{
   }
 
   #tokenomics .swiper-button-next{
-    right: 1.5rem !important;
+    right: -3rem !important;
   }
 
   #tokenomics .swiper .copy_address p{
     font-size: 2vw;
   }
-
+ 
   
   #tokenomics .swiper-slide h2{  
     font-size: 34px;
@@ -3487,7 +3491,7 @@ nav .book{
       }
 
       #tokenomics .swiper-button-next{
-        right: 1rem !important;
+        right: -3.5rem !important;
       }
 
       .article .swiper-button-next::before, 
