@@ -3539,7 +3539,8 @@ nav .book{
   }
 
   .article .swiper-slide .card{
-    height: 600px;
+    height: 590px;
+    gap: 1rem;
   }
 
   /* patner */
