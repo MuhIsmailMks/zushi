@@ -3518,6 +3518,10 @@ nav .book{
   .cloud_container .cloud7{
     display: none;
   }
+
+  .cloud_container .sushi2{
+    bottom: 14%;
+  }
         
   /* article */  
   .article{
@@ -3534,12 +3538,16 @@ nav .book{
     -webkit-text-stroke: 1px black;
   }
 
+  .article .lines{
+    width: 130px;
+  }
+
   .article .swiper{
     height: 800px;
   }
 
   .article .swiper-slide .card{
-    height: 590px;
+    height: 570px;
     gap: 1rem;
   }
 
