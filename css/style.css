@@ -2619,8 +2619,7 @@ nav .book{
   /* token 2 */
 .token_container_2{
   height: 1500px;
-  position: relative;
-  display: none;
+  position: relative; 
 }
 
 .token_container_2 .swiper_slider_container{
@@ -3790,12 +3789,18 @@ nav .book{
 
   /* token 2 mobile */
   .token_container_2{
-    height: 700px;
+    height: 900px;
+  }
+
+  .token_container_2 .token_container_content{ 
+    align-items: start; 
   }
 
   .token_container_2 .swiper_slider_container{
     height: 400px;
-    width: 88%;
+    width: 88%; 
+    z-index: 7;
+    top: 10%;
   }
 
    .swiper_slider_container .swiper-slide h2{
@@ -3828,5 +3833,15 @@ nav .book{
   .swiper_slider_container .bg img{
     width: 50px;
   }
+ 
+  .token_container_2 .bg_chart{
+    align-items: end;
+    padding-bottom: 5rem;
+  }
+
+  .token_container_2 .bg_chart img{
+    width: 300px;
+  }
+  
 
 }
