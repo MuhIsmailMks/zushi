@@ -3140,12 +3140,30 @@ nav .book{
   transform: translateX(0px);
 }
 
+
+
+/* media queries */
+@media screen and (min-width:1600px){
+  /* token 2 */
+  .token_container_2{
+    height: 1500px;
+  }
+
+  .token_container_content .bg_chart img{
+    width: 1200px;
+  }
+
+  .token_container_2 .swiper_slider_container{
+    width: 800px;
+    height: 500px;
+  }
+
+}
+
 @media screen and (min-width:1224px){
   .xl_left{
     padding-left: 200px;
   }
-
-  
 }
 
 @media screen and (min-width:1024px){
@@ -3180,6 +3198,7 @@ nav .book{
     width: 1200px;
   }
 }
+
 @media screen and (max-width:1024px) {
   .btn_container{ 
     display: flex;
