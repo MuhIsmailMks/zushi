@@ -66,3 +66,5 @@ SECRET PHASE
 50,000,000 Marketing 5%
 
 Zushi: Not Just a MemeCoin, It’s a Revolution!
+
+/* token 2 mobile */
