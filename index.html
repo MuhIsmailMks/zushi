@@ -1103,6 +1103,13 @@
     const swiper3 = new Swiper('#swiper3', { 
         direction: 'horizontal',
         loop: true,
+        allowTouchMove: false,
+
+        // Disable mousewheel control
+        mousewheel: false,
+
+        // Disable keyboard control
+        keyboard: false,
         
         navigation: {
           nextEl: '.swiper-button-next',
